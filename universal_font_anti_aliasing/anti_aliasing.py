@@ -9,7 +9,7 @@ from .woff2tff import woff2tff
 base_dir = os.path.dirname(__file__)
 
 
-dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
+dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"))
 dll.NewOcr.argtype = c_char_p
 dll.NewOcr.restype = c_char_p
 
