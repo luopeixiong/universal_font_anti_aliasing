@@ -17,9 +17,11 @@ def load_dll():
         dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
     elif sys == "Linux":
         dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"))
+    elif sys == "Darwin":
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr_win.so"))
     else:
-        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
-
+        raise ValueError("Unkown platform")
+    return dll
 
 dll = load_dll()
 dll.NewOcr.argtype = c_char_p
