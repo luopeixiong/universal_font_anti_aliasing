@@ -3,7 +3,7 @@
 import os
 
 import platform
-from ctypes import CDLL, c_char_p
+from ctypes import CDLL, c_char_p, RTLD_GLOBAL
 from . import woff2tff
 
 
@@ -13,12 +13,13 @@ base_dir = os.path.dirname(__file__)
 
 def load_dll():
     sys = platform.system()
+    print(sys)
     if sys == "Windows":
-        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr_win.so"), RTLD_GLOBAL)
     elif sys == "Linux":
-        dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"))
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"), RTLD_GLOBAL)
     elif sys == "Darwin":
-        dll = CDLL(os.path.join(base_dir, "tyc_ocr_win.so"))
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"), RTLD_GLOBAL)
     else:
         raise ValueError("Unkown platform")
     return dll
