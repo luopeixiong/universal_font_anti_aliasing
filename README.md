@@ -13,7 +13,7 @@ https://github.com/UB-Mannheim/tesseract/wiki
 ### 配置环境变量
 
 # linux
-### 请参考https://www.cnblogs.com/mjorcen/p/3806626.html
+### 请参考https://www.cnblogs.com/arachis/p/OCR.html
 
 
 # 语言包下载地址 依赖 chi_sim.traineddata
