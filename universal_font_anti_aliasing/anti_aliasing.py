@@ -1,15 +1,27 @@
 # coding:utf-8
 
 import os
+
+import platform
 from ctypes import CDLL, c_char_p
-from .woff2tff import woff2tff
+from . import woff2tff
 
 
 
 base_dir = os.path.dirname(__file__)
 
 
-dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"))
+def load_dll():
+    sys = platform.system()
+    if sys == "Windows":
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
+    elif sys == "Linux":
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"))
+    else:
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"))
+
+
+dll = load_dll()
 dll.NewOcr.argtype = c_char_p
 dll.NewOcr.restype = c_char_p
 

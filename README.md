@@ -44,6 +44,8 @@ make
 
 make install
 
+cd /usr/local/share/tessdata/
+
 wget --no-check-certificate https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata 
 
 ```
