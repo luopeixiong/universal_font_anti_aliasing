@@ -1,3 +1,4 @@
+# coding:utf-8
 
 import os
 from ctypes import CDLL, c_char_p
