@@ -13,7 +13,42 @@ https://github.com/UB-Mannheim/tesseract/wiki
 ### 配置环境变量
 
 # linux
-### 请参考https://www.cnblogs.com/arachis/p/OCR.html
+### 请参考 https://blog.csdn.net/wanght89/article/details/78329546
+```console
+wget http://www.leptonica.org/source/leptonica-1.74.4.tar.gz
+
+tar -xvf leptonica-1.74.4.tar.gz
+
+cd leptonica-1.74.4
+
+./configure
+
+make 
+
+make install
+
+yum install automake
+
+yum install libtool
+
+
+wget https://github.com/tesseract-ocr/tesseract/archive/3.04.00.tar.gz
+
+tar -xvf 3.04.00.tar.gz
+
+cd tesseract-3.04.00
+
+./configure
+
+make 
+
+make install
+
+wget --no-check-certificate https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata 
+
+```
+
+
 
 
 # 语言包下载地址 依赖 chi_sim.traineddata
