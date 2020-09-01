@@ -75,7 +75,7 @@ demo
 git clone https://github.com/luopeixiong/universal_font_anti_aliasing.git
 apt-get -y install tesseract-ocr
 cd  universal_font_anti_aliasing
-copy lang/chi_sim.traineddata /usr/share/tesseract-ocr/tessdata/chi_sim.traineddata
+cp lang/chi_sim.traineddata /usr/share/tesseract-ocr/tessdata/chi_sim.traineddata
 python3 test_ocr.py
 ```
 
