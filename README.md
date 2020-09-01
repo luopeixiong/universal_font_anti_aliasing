@@ -68,16 +68,17 @@ wget --no-check-certificate https://github.com/tesseract-ocr/tessdata/raw/master
 pip install requests
 `
 
-```python
-from universal_font_anti_aliasing.anti_aliasing import anti
 
-
-
-url = "https://s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/85226b1a.woff"
-s = "丙232"
-anti(url, s)
-
+demo
+在ubuntu下 测试
 ```
+git clone https://github.com/luopeixiong/universal_font_anti_aliasing.git
+apt-get install tesseract-ocr
+cd  universal_font_anti_aliasing
+copy lang/chi_sim.traineddata /usr/share/tesseract-ocr/tessdata/chi_sim.traineddata
+python3 test_ocr.py
+```
+
 
 
 
