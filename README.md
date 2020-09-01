@@ -12,7 +12,12 @@
 https://github.com/UB-Mannheim/tesseract/wiki
 ### 配置环境变量
 
-# linux
+# ubuntu
+```
+apt-get install tesseract-ocr
+```
+
+# centos
 ### 请参考 https://blog.csdn.net/wanght89/article/details/78329546
 ```console
 wget http://www.leptonica.org/source/leptonica-1.74.4.tar.gz
