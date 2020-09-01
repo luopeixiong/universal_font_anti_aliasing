@@ -19,7 +19,7 @@ def load_dll():
     elif sys == "Linux":
         dll = CDLL(os.path.join(base_dir, "tyc_ocr_linux.so"), RTLD_GLOBAL)
     elif sys == "Darwin":
-        dll = CDLL(os.path.join(base_dir, "tyc_ocr.so"), RTLD_GLOBAL)
+        dll = CDLL(os.path.join(base_dir, "tyc_ocr_mac.so"), RTLD_GLOBAL)
     else:
         raise ValueError("Unkown platform")
     return dll
