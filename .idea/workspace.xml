@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be871d8c-58bb-464c-9d3c-c835cf5e9b26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universal_font_anti_aliasing/anti_aliasing.py" beforeDir="false" afterPath="$PROJECT_DIR$/universal_font_anti_aliasing/anti_aliasing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universal_font_anti_aliasing/tyc_ocr_mac.so" beforeDir="false" afterPath="$PROJECT_DIR$/universal_font_anti_aliasing/tyc_ocr_mac.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +54,47 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lang" />
-      <recent name="$PROJECT_DIR$/universal_font_anti_aliasing" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/universal_font_anti_aliasing" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/lang" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lang" />
+      <recent name="$PROJECT_DIR$/universal_font_anti_aliasing" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_ocr">
+    <configuration name="anti_aliasing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="font_anti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/universal_font_anti_aliasing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/universal_font_anti_aliasing/anti_aliasing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_ocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="font_anti" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_ocr" />
+        <item itemvalue="Python.anti_aliasing" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +135,10 @@
       <option name="presentableId" value="Default" />
       <updated>1598681998331</updated>
       <workItem from="1598681999657" duration="2478000" />
-      <workItem from="1598836657995" duration="14129000" />
+      <workItem from="1598836657995" duration="14682000" />
+      <workItem from="1599200077035" duration="33000" />
+      <workItem from="1599552376565" duration="6003000" />
+      <workItem from="1599563379095" duration="332000" />
     </task>
     <servers />
   </component>
@@ -126,42 +158,51 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="685" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598853886489">
-      <screen x="0" y="25" width="1792" height="1008" />
+    <state x="685" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599556202031">
+      <screen x="0" y="25" width="1792" height="1023" />
     </state>
     <state x="685" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1008@0.25.1792.1008" timestamp="1598853886489" />
-    <state x="685" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1021@0.25.1792.1021" timestamp="1598682143609" />
-    <state width="1750" height="254" key="GridCell.Tab.0.bottom" timestamp="1598853872203">
-      <screen x="0" y="25" width="1792" height="1008" />
+    <state x="685" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1021@0.25.1792.1021" timestamp="1599554962248" />
+    <state x="685" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1023@0.25.1792.1023" timestamp="1599556202031" />
+    <state width="1750" height="275" key="GridCell.Tab.0.bottom" timestamp="1599555506499">
+      <screen x="0" y="25" width="1792" height="1023" />
     </state>
     <state width="1750" height="254" key="GridCell.Tab.0.bottom/0.25.1792.1005@0.25.1792.1005" timestamp="1598850268678" />
     <state width="1750" height="254" key="GridCell.Tab.0.bottom/0.25.1792.1008@0.25.1792.1008" timestamp="1598853872203" />
+    <state width="1750" height="254" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1598934453385" />
     <state width="1613" height="269" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1598688095544" />
     <state width="1613" height="269" key="GridCell.Tab.0.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1598682451573" />
-    <state width="1750" height="254" key="GridCell.Tab.0.center" timestamp="1598853872202">
-      <screen x="0" y="25" width="1792" height="1008" />
+    <state width="1750" height="275" key="GridCell.Tab.0.bottom/0.25.1792.1023@0.25.1792.1023" timestamp="1599555506499" />
+    <state width="1750" height="275" key="GridCell.Tab.0.center" timestamp="1599555506498">
+      <screen x="0" y="25" width="1792" height="1023" />
     </state>
     <state width="1750" height="254" key="GridCell.Tab.0.center/0.25.1792.1005@0.25.1792.1005" timestamp="1598850268678" />
     <state width="1750" height="254" key="GridCell.Tab.0.center/0.25.1792.1008@0.25.1792.1008" timestamp="1598853872202" />
+    <state width="1750" height="254" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1598934453384" />
     <state width="1613" height="269" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1598688095543" />
     <state width="1613" height="269" key="GridCell.Tab.0.center/0.25.1792.1021@0.25.1792.1021" timestamp="1598682451572" />
-    <state width="1750" height="254" key="GridCell.Tab.0.left" timestamp="1598853872202">
-      <screen x="0" y="25" width="1792" height="1008" />
+    <state width="1750" height="275" key="GridCell.Tab.0.center/0.25.1792.1023@0.25.1792.1023" timestamp="1599555506498" />
+    <state width="1750" height="275" key="GridCell.Tab.0.left" timestamp="1599555506497">
+      <screen x="0" y="25" width="1792" height="1023" />
     </state>
     <state width="1750" height="254" key="GridCell.Tab.0.left/0.25.1792.1005@0.25.1792.1005" timestamp="1598850268677" />
     <state width="1750" height="254" key="GridCell.Tab.0.left/0.25.1792.1008@0.25.1792.1008" timestamp="1598853872202" />
+    <state width="1750" height="254" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1598934453384" />
     <state width="1613" height="269" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1598688095543" />
     <state width="1613" height="269" key="GridCell.Tab.0.left/0.25.1792.1021@0.25.1792.1021" timestamp="1598682451572" />
-    <state width="1750" height="254" key="GridCell.Tab.0.right" timestamp="1598853872203">
-      <screen x="0" y="25" width="1792" height="1008" />
+    <state width="1750" height="275" key="GridCell.Tab.0.left/0.25.1792.1023@0.25.1792.1023" timestamp="1599555506497" />
+    <state width="1750" height="275" key="GridCell.Tab.0.right" timestamp="1599555506498">
+      <screen x="0" y="25" width="1792" height="1023" />
     </state>
     <state width="1750" height="254" key="GridCell.Tab.0.right/0.25.1792.1005@0.25.1792.1005" timestamp="1598850268678" />
     <state width="1750" height="254" key="GridCell.Tab.0.right/0.25.1792.1008@0.25.1792.1008" timestamp="1598853872203" />
+    <state width="1750" height="254" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1598934453385" />
     <state width="1613" height="269" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1598688095544" />
     <state width="1613" height="269" key="GridCell.Tab.0.right/0.25.1792.1021@0.25.1792.1021" timestamp="1598682451572" />
+    <state width="1750" height="275" key="GridCell.Tab.0.right/0.25.1792.1023@0.25.1792.1023" timestamp="1599555506498" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/font_anti$anti_aliasing.coverage" NAME="anti_aliasing Coverage Results" MODIFIED="1598850259432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/universal_font_anti_aliasing" />
+    <SUITE FILE_PATH="coverage/font_anti$anti_aliasing.coverage" NAME="anti_aliasing Coverage Results" MODIFIED="1599555428566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/universal_font_anti_aliasing" />
     <SUITE FILE_PATH="coverage/font_anti$test_ocr.coverage" NAME="test_ocr Coverage Results" MODIFIED="1598685496970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

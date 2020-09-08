@@ -1,7 +1,8 @@
 # 环境依赖
 
 # 需要安装依赖
-安装tesseract 已经chi_sim数据包
+tesseract3
+以及chi_sim数据包
 
 # mac
 ### brew install tesseract
@@ -14,6 +15,8 @@ https://github.com/UB-Mannheim/tesseract/wiki
 
 # ubuntu
 ```
+apt-cache madison tesseract-ocr
+
 apt-get install tesseract-ocr
 ```
 
@@ -68,14 +71,23 @@ wget --no-check-certificate https://github.com/tesseract-ocr/tessdata/raw/master
 pip install requests
 `
 
+apt-get -y autoremove tesseract-ocr
 
+apt-cache policy tesseract-ocr
 demo
 在ubuntu下 测试
 ```
 git clone https://github.com/luopeixiong/universal_font_anti_aliasing.git
-apt-get -y install tesseract-ocr
+apt-get -y install tesseract-ocr===3.04.01-4 500
+
 cd  universal_font_anti_aliasing
-cp lang/chi_sim.traineddata /usr/share/tesseract-ocr/tessdata/chi_sim.traineddata
+echo "include /usr/local/lib" >> /etc/ld.so.conf
+ldconfig
+
+# 可能需要
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtesseract.so.4 /usr/lib/libtesseract.so.4
+
+cp lang/chi_sim.traineddata /usr/share/tesseract-ocr/4.00/tessdata/chi_sim.traineddata
 python3 test_ocr.py
 ```
 

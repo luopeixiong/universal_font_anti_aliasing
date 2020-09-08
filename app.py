@@ -1,7 +1,11 @@
 
+import os
+import sys
+
+sys.path.append(os.path.dirname(__file__))
 
 from flask import Flask
-from .route import register_route
+from route import register_route
 
 
 def create_app():
